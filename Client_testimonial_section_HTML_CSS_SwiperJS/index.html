@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive testimonial Section HTML CSS & SWiper JS</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="testimonialBox">
+						<img src="img/quote.png" class="quote">
+						<div class="content">
+							<p>Transferido a ele por Toshinori Yagi, a Individualidade de Izuku permite que ele armazene uma enorme quantidade de energia bruta, permitindo que ele aprimore significativamente todas as suas habilidades físicas para um nível sobre-humano. Isso resulta em níveis inacreditáveis ​​de força, velocidade, agilidade e durabilidade. </p>
+							<div class="details">
+								<div class="imgBx">
+									<img src="img/user1.jpg">
+								</div><!--imgBx-->
+								<h3>Izuku Midoriya<br><span>One For All</span></h3>
+							</div><!--details-->
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="testimonialBox">
+						<img src="img/quote.png" class="quote">
+						<div class="content">
+							<p>A Individualidade de Katsuki faz com que ele sue nitroglicerina da palma de suas mãos, criando explosões dessa forma. Quanto mais ele suar mais forte será a explosão. Ele sua suas explosões não apenas para acertar seus inimigos, mas também para poder se locomover no ar. </p>
+							<div class="details">
+								<div class="imgBx">
+									<img src="img/user2.jpg">
+								</div><!--imgBx-->
+								<h3>Katsuki Bakugo<br><span>Explosão</span></h3>
+							</div><!--details-->
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="testimonialBox">
+						<img src="img/quote.png" class="quote">
+						<div class="content">
+							<p>É capaz de criar qualquer material não-vivo de seu corpo descoberto através da manipulação molecular de suas células de gordura. Ela afirma que quanto mais ela come, mais material ela tem para trabalhar. Enquanto ela tem uma compreensão de como algo é feito, ela pode criá-lo, embora leve-lhe um longo período de tempo, bem como mais de sua pele sendo exposta, para criar grandes objetos.</p>
+							<div class="details">
+								<div class="imgBx">
+									<img src="img/user3.jpg">
+								</div><!--imgBx-->
+								<h3>Momo Yaoyorozu<br><span>Criação</span></h3>
+							</div><!--details-->
+						</div>
+					</div>
+				</div>
+
+			</div><!--swiper-wrapper-->
+		</div><!--swiper-container-->
+	</section>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 0,
+				stretch: 0,
+				depth: 100,
+				modifier: 2,
+				slideShadows: true,
+			},
+			loop: true,
+	});
+	</script>
+</body>
+</html>
+
+<!--
+	Créditos: Swiper: https://swiperjs.com/
+	Online tutorials - Youtube
+-->
